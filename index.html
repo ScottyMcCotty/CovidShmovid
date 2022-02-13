@@ -6,10 +6,32 @@
     <title>Knovid-19</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
-    Hello world, COVID is fake <br>
-    masks don't work! <br>
-    you can't muzzle me! <br>
+    
+    <h3>Knowvid guidelines website</h3><br><br>
+
+    <div id="first question container">
+      <span>Hello user, do you have COVID symptoms?</span><br><br>
+      <input id="question1answer1" type=button value="Yes" onclick="question1answer1()">
+      <input id="question1answer2" type=button value="No" onclick="question1answer2()">
+    </div>
+    <div id="second question container" hidden=true>
+      <span>Sorry to hear that, here's our Isolation Calculator. How long since your last fever?</span><br><br>
+      <input id="question2answer1" type=button value="< 24 hours" onclick="question2answer1()">
+      <input id="question2answer2" type=button value="> 24 hours" onclick="question2answer2()">
+    </div>
+    <div id="third question container" hidden=true>
+      <span>Were you exposed to COVID?</span><br><br>
+      <input id="question3answer1" type=button value="Yes" onclick="question3answer1()">
+      <input id="question3answer2" type=button value="No" onclick="question3answer2()">
+    </div>
+    <div id="go back button container">
+      <span></span><br>
+      <input id="goBackButton" type=button value="Go Back" onclick="goBack()">
+    </div>
+
     <script src="script.js"></script>
   </body>
+
 </html>
