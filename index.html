@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Knovid-19</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     
-    <h3>Knowvid guidelines website</h3><br><br>
+    <div id="topbar">
+      <h3>Knowvid guidelines website</h3>
+    </div>
+    
+    <!-- <div class="question">
 
     <div id="first question container">
       <span>Hello user, do you have COVID symptoms?</span><br><br>
@@ -29,9 +36,26 @@
     <div id="go back button container">
       <span></span><br>
       <input id="goBackButton" type=button value="Go Back" onclick="goBack()">
+    </div> -->
+
+    <div id="page container">
+      <span id="question label">If you're seeing this, script.js failed</span><br><br>
+      <div id="button container">
+        <!-- <input id="answer 1" type=button value="Yes" onclick="answer1">
+        <input id="answer 2" type=button value="No"  onclick="answer2"> -->
+        <input id="answer 1" type=button value="Yes">
+        <input id="answer 2" type=button value="No">
+      </div>
+    </div>
+    
+    <div id="extra stuff container">
+      <div id="back button container">
+        <input id="back button" type="button" value="Back">
+      </div>
     </div>
 
-    <script src="script.js"></script>
+
+    <script src="js/script.js" type="module"></script>
   </body>
 
 </html>
