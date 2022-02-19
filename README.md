@@ -6,6 +6,8 @@ Bonnie Guo, Scott Ballinger, Josh Winter, Krishnapriya Nair, Sanskriti Jain, Rah
 
 [Link to our survey](https://docs.google.com/forms/d/e/1FAIpQLSeAEvkmwbfsKGu1qA4hPR29Kh6Hs-b5W8a7W1hfvZVJUk4Thg/viewform?usp=sf_link)
 
+[Link to our lucidchart decision tree](https://lucid.app/lucidchart/589b9019-2e6e-4e14-aae3-9adba6355506/edit?invitationId=inv_2f332ec6-762a-43c7-8a8f-c653443a7c6c)
+
 ## _**Description**_
 We plan to redesign the CDC COVID guidelines web page into a much more intuitive structure. We would like it to allow users to input their current status (vaccinated, boosted, tested positive, rapid vs PCR test, symptomatic or not, degree of COVID exposure, etc.) page by page, like a choose-your-own-adventure design using a tree structure. At the end of the process, the page will clearly display the next steps the user should take given their current circumstances.
 
@@ -32,6 +34,6 @@ We plan to design our webpage using basic HTML/JavaScript/CSS. In the unlikely e
 
 For our prototype webpage, we plan to demonstrate our work using the VSCode extension Live Server, which will launch a local development server with live reload feature for static & dynamic pages. For a more permanent solution, we plan to utilize Flask for our Python backend and we will host our website with Google Cloud.
 
-We’ll use Github for version control and Trello to manage the project, keeping track of tasks and deadlines. We plan to establish an Agile-style development process. Our design sketches begin in Miro, a sharable whiteboard website. Then, for greater detail and accuracy, we might use another UI mock-up application such as Figma. Here, we will establish our color scheme, page transitions, and simplicity of use.
+We’ll use Github for version control and Trello to manage the project, keeping track of tasks and deadlines. We plan to establish an Agile-style development process. Our design sketches begin in Lucidchart, a sharable charting website. Then, for greater detail and accuracy, we might use another UI mock-up application such as Figma. Here, we will establish our color scheme, page transitions, and simplicity of use.
 
-[Link to our survey](https://docs.google.com/forms/d/e/1FAIpQLSeAEvkmwbfsKGu1qA4hPR29Kh6Hs-b5W8a7W1hfvZVJUk4Thg/viewform?usp=sf_link)
+[Another link to our survey](https://docs.google.com/forms/d/e/1FAIpQLSeAEvkmwbfsKGu1qA4hPR29Kh6Hs-b5W8a7W1hfvZVJUk4Thg/viewform?usp=sf_link)
